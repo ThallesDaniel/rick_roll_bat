@@ -13,6 +13,6 @@ for /l %%i in (1, 1, %num_instancias%) do (
 timeout /t 600 /nobreak >nul
 
 :: Reproduza a música "never gonna give me up"
-powershell -c "(New-Object Media.SoundPlayer 'C:\Users\Lenovo\Downloads\Never Gonna Give You Up 16 bits.wav').PlaySync();"
+powershell -c "(New-Object Media.SoundPlayer 'C:\Users\Lenovo\Downloads\Never_Gonna_Give_You_Up_16_bits.wav').PlaySync();"
 
 endlocal
